@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reset - Reset vs Normalize</title>
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <!-- Headline -->
+    <h1>Reset vs Normalize</h1>
+    <p>A simple look at both.</p>
+    <!-- Buttons -->
+    <div>
+      <h2>Reset Applied</h2>
+      <p><a href="index.html"><button>View Standard</button></a></p>
+      <p><a href="normalize.html"><button>View Normalize</button></a></p>
+      <p><small>Link to <a href="https://meyerweb.com/eric/tools/css/reset">Eric Meyer's Reset</a></small></p>
+      <p><small>Link to <a href="https://necolas.github.io/normalize.css">Nicolas Gallagher's Normalize</a></small></p>
+    </div>
+    <hr>
+    <!-- Table of Contents -->
+    <h2>Anchors</h2>
+    <p>These follow the <abbr title="Mozilla Developer Network">MDN</abbr>Web Docs &quot;HTML Elements Reference&quot;
+      found <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">here</a>.</p>
+    <nav>
+      <ul>
+        <li><a href="#headers-text-content">Headers &amp; Text Content</a></li>
+        <li><a href="#inline-text-semantics">Inline Text Semantics</a></li>
+        <li><a href="#content-sectioning">Content Sectioning</a></li>
+        <li><a href="#interactive-elements">Interactive Elements</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#tables">Tables</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+
+  <!-- Main -->
+  <main>
+    <!-- Headers & Text Content -->
+    <section id="headers-text-content">
+      <h1>Headers &amp; Text Content</h1>
+
+      <!-- Headers -->
+      <h1>Example heading 1</h1>
+      <h2>Example heading 2</h2>
+      <h3>Example heading 3</h3>
+      <h4>Example heading 4</h4>
+      <h5>Example heading 5</h5>
+      <h6>Example heading 6</h6>
+
+      <!-- Paragraphs -->
+      <h2>Paragraphs</h2>
+      <p>Example paragraph. Lorem ipsum dolor sit amet elit. Dicta reprehenderit asperiores temporibus, 
+        cum ipsa commodi eum quisquam. Laudantium, unde corrupti.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur sint perspiciatis officiis! Enim ad
+        praesentium,provident quibusdam, mollitia vel temporibus facere numquam ex quam assumenda, velit cum! Similique, 
+        modi eligendi.
+      </p>
+
+      <!-- Text Content -->
+      <!-- Blockquote -->
+      <h2>Blockquote</h2>
+      <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block Quotation Element</em>)
+          indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation 
+          (see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote#Usage_notes">Notes</a> 
+          for how to change it). A URL for the source of the quotation may be given using the <strong>cite</strong> 
+          attribute, while a text representation of the source can be given using the <code>&lt;cite&gt;</code> element.
+        </p>
+        <footer>—Mozilla, <cite>MDN Web Docs</cite></footer>
+      </blockquote>
+
+      <!-- Description Details -->
+      <h2>Description Details</h2>
+      <dl>
+        <dt>Description</dt>
+        <dd>a spoken or written representation or account of a person, object, or event.</dd>
+        <dt>Detail</dt>
+        <dd>an individual feature, fact, or item.</dd>
+      </dl>
+
+      <!-- Content Division -->
+      <h2>Content Division</h2>
+      <div style="background-color:black; color:white;">
+        <p>This is inside a div</p>
+      </div>
+
+      <!-- Figure -->
+      <h2>Figure</h2>
+      <figure>
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark"
+          width="200px">
+        <figcaption>GitHub Mark Logo</figcaption>
+      </figure>
+
+      <!-- Ordered List -->
+      <h2>Ordered List</h2>
+      <ol>
+        <li>First item.</li>
+        <li>Then the second item.</li>
+        <li>Along comes the third item.</li>
+        <li>Followed by the fourth.</li>
+        <li>Finally, the fifth..</li>
+      </ol>
+
+      <!-- Unordered List -->
+      <h2>Unordered List</h2>
+      <ul>
+        <li>Item</li>
+        <li>Another item</li>
+        <li>Other item</li>
+        <li>Additional item</li>
+        <li>One more item</li>
+      </ul>
+
+      <!-- Pre -->
+      <h2>Preformatted Text</h2>
+      <pre>
+        |\_/|      ______
+        (. .)   __/ meow \
+         =w= (\   \______/
+        / ^ \//
+       (|| ||)
+        "" ""
+      </pre>
+    </section>
+    <hr>
+
+    <!-- Inline Text Semantics -->
+    <section id="inline-text-semantics">
+      <h1>Inline Text Semantics</h1>
+
+      <!-- Anchor -->
+      <h2>Anchor</h2>
+      <p>An <code>&lt;a&gt;</code> here: <a href="">anchor example</a>.</p>
+
+      <!-- Abbreviation -->
+      <h2>Abbreviation</h2>
+      <p>An <code>&lt;abbr&gt;</code> here: <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+
+      <!-- Bring Attention To -->
+      <h2>Bring Attention To</h2>
+      <p>The bring attention to element, <code>&lt;b&gt;</code>, brings <b>attention</b> to an
+        element.</p>
+
+      <!-- Strong Importance -->
+      <h2>Strong Importance</h2>
+      <p>Srong importance element, <code>&lt;strong&gt;</code>, <strong>indicates stronger importance</strong>.</p>
+
+      <!-- Citation -->
+      <h2>Citation</h2>
+      <p><cite>This is a citation</cite>.</p>
+
+      <!-- Inline Code -->
+      <h2>Inline Code</h2>
+      <p>This is inline <code>code</code>.</p>
+
+      <!-- Emphasis -->
+      <h2>Emphasis</h2>
+      <p>An <code>&lt;em&gt;</code> indicates <em>stress emphasis</em>.</p>
+
+      <!-- I -->
+      <h2>I</h2>
+      <p>The <code>&lt;i&gt;</code> element represents text that is set apart from the normal text.</p>
+
+      <!-- Keyboard Input -->
+      <h2>Keyboard Input</h2>
+      <p>Keyboard Input elements look like this: <kbd>Ctrl</kbd>.</p>
+
+      <!-- Mark Text -->
+      <h2>Mark Text</h2>
+      <p>Mark text looks like: <mark>this</mark>.</p>
+
+      <!-- Inline Quotation -->
+      <h2>Inline Quotation</h2>
+      <p>Inline quotation:
+        <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+          The <strong>HTML <code>&lt;q&gt;</code> element</strong> indicates that the enclosed text is a short inline
+          quotation. Most modern browsers implement this by surrounding the text in quotation marks.</q></p>
+
+      <!-- S -->
+      <h2>S</h2>
+      <p>The <code>&lt;s&gt;</code> element renders text with a <s>strikethrough</s>. It should not be used to indicate
+        document edits. Use <del>del</del> and <ins>ins</ins> instead.</p>
+
+      <!-- Sample Output -->
+      <h2>Sample Output</h2>
+      <p>Sample output looks like this: <samp>Keyboard not found. Press F1 to continue...</samp></p>
+
+      <!-- Side Comment -->
+      <h2>Side Comment</h2>
+      <p><small>The HTML <code>&lt;small&gt;</code> element represents side-comments and small print, like copyright and
+          legal text, independent of its styled presentation. By default, it renders text within it one font-size 
+          small, such as from small to x-small.</small></p>
+
+      <!-- Subscript & Superscript -->
+      <h2>Subscript &amp; Superscript</h2>
+      <p>Here are subscript <sub>10</sub> and superscript <sup>10</sup>.</p>
+
+      <!-- Time -->
+      <h2>Time</h2>
+      <p>Time: <time datetime="2018-07-07">July 7</time> &amp; <time datetime="20:00">20:00</time> &amp; 
+        <time datetime="PT2H30M">2h 30m</time>.</p>
+
+      <!-- Unarticulated Annotation -->
+      <h2>Unarticulated Annotation</h2>
+      <p>This is an <u>unarticulated annotation element</u>. Please use CSS <code>text-decoration: underline</code> for
+        <span style="text-decoration:underline;">underline</span>.</p>
+
+      <!-- Var -->
+      <h2>Var</h2>
+      <p>Here is var: <var>x</var> + <var>y</var></p>
+
+    </section>
+    <hr>
+
+    <!-- Content Sectioning -->
+    <section id="content-sectioning">
+      <h1>Content Sectioning</h1>
+
+      <!-- Header -->
+      <h2>Header</h2>
+      <header>
+        <p>This is inside a header.</p>
+
+        <!-- Nav -->
+        <h2>Nav</h2>
+        <nav>
+          <ul>
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <h1>Main</h1>
+      <main>
+        <p>This is inside main.</p>
+
+        <!-- Article -->
+        <h2>Article</h2>
+        <article>
+          <p>This is a paragraph inside an <code>article</code>. Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Dicta nisi in repellat neque provident nostrum modi quisquam ipsa doloribus itaque. Tenetur, adipisca 
+            asperiores? Quod sint ipsa maxime ea, natus consectetur placeat ab? Voluptas libero aspernatur adipisci, 
+            eum recusandae cum qui.</p>
+        </article>
+
+        <!-- Aside -->
+        <h2>Aside</h2>
+        <aside>
+          <p>This is a paragraph inside an <code>aside</code>. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consequatur praesentium velit pariatur ab non cupiditate eum. Rerum illo alias fugiat!</p>
+        </aside>
+      </main>
+
+      <!-- Footer -->
+      <h2>Footer</h2>
+      <footer>
+        <p>This is a paragraph inside a <code>footer</code></p>
+        <p>Take a look at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN</a> for more.</p>
+      </footer>
+    </section>
+    <hr>
+
+    <!-- Interactive Elements -->
+    <section id="interactive-elements">
+      <h1>Interactive Elements</h1>
+
+      <!-- Details -->
+      <h2>Details</h2>
+      <details>
+        <summary>Here is a summary:</summary>
+        Here are the details.
+      </details>
+
+      <!-- Dialog -->
+      <h2>Dialog</h2>
+      <dialog open>
+        <p>Here is the dialog.</p>
+      </dialog>
+    </section>
+    <hr>
+
+    <!-- Forms -->
+    <section id="forms">
+      <h1>Forms</h1>
+
+      <!-- Form -->
+      <h2>Form</h2>
+      <form action="">
+        <div>
+          <label for="nothing">Nothing: </label>
+          <input type="text" name="nothing" id="nothing">
+        </div>
+        <div>
+          <label for="email">Required Email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+
+      <!-- Text Area -->
+      <h2>Text Area</h2>
+      <form action="">
+        <label for="story">Textarea:</label>
+        <textarea id="" name="" rows="5" cols="33">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque laborum repellat temporibus 
+          quod minima delectus distinctio ad atque natus.
+        </textarea>
+      </form>
+
+      <!-- Radio -->
+      <h2>Radio</h2>
+      <form action="">
+        <fieldset>
+          <legend>Title</legend>
+          <input type="radio" name="my-input" id="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="my-input" id="no">
+          <label for="no">No</label>
+        </fieldset>
+      </form>
+
+      <!-- Checkbox -->
+      <h2>Checkbox</h2>
+      <form action="">
+        <input type="checkbox" name="my-checkbox" id="opt-in">
+        <label for="opt-in">Check me!</label>
+        <input type="checkbox" name="my-checkbox-2" id="opt-in-2">
+        <label for="opt-in-2">And me!</label>
+      </form>
+
+      <!-- Option -->
+      <h2>Option</h2>
+      <form action="">
+        <select>
+          <optgroup label="Group 1">
+            <option>Option 1.1</option>
+          </optgroup>
+          <optgroup label="Group 2">
+            <option>Option 2.1</option>
+            <option>Option 2.2</option>
+          </optgroup>
+          <optgroup label="Group 3" disabled>
+            <option>Option 3.1</option>
+            <option>Option 3.2</option>
+            <option>Option 3.3</option>
+          </optgroup>
+        </select>
+      </form>
+
+      <!-- Progress -->
+      <h2>Progress</h2>
+      <label for="progress">Progress bar:</label>
+      <progress id="progress" max="100" value="70">70%</progress>
+
+      <!-- Output -->
+      <h2>Output</h2>
+      <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" name="b" value="50" /> +
+        <input type="number" name="a" value="10" /> =
+        <output name="result">60</output>
+      </form>
+    </section>
+    <hr>
+
+    <!-- Tables -->
+    <section id="tables">
+      <h1>Tables</h1>
+
+      <h2>Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Table header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The table body</td>
+            <td>With two columns</td>
+          </tr>
+          <tr>
+            <td>More of the table body</td>
+            <td>Still with two columns</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>This is the pages <code>footer</code>.</p>
+    <p>Find more information on these elements at the <a
+        href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content">MDN</a> Web
+      Docs.</p>
+    <p>Visit this project on <a href="https://github.com/austinbuilds/Normalize-vs-Reset">GitHub</a>.</p>
+  </footer>
+
+</body>
+
+</html>
